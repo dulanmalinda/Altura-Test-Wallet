@@ -1,0 +1,26 @@
+/* Wallet.module.css */
+.blur {
+    filter: blur(5px);
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the modal overlay */
+    z-index: 999;
+  }
+  
+  .modalContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
